@@ -1,4 +1,4 @@
 # pertemuan-02
-NIM : 2522500067
-NAMA : JELISA DEWI KOMARIAH
-hari ini,minggu 05.okt.2025 saya belajar:
+NIM : 2522500067<br>
+NAMA : JELISA DEWI KOMARIAH<br>
+hari ini,minggu 05.okt.2025 saya belajar:<br>
