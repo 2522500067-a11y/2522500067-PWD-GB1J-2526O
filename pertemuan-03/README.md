@@ -7,3 +7,5 @@ hari ini,kamis 23 oktober 2025,saya belajar:
 <ol>
   <li>membuat styling untuk selector ID #about ini</li>
   <li>stayling selector ID #about elemen h2</li>
+  <li>stayling selector ID #about elemen p</li>
+  <li>stayling selector ID #about elemen strong</li>
