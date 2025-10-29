@@ -42,18 +42,23 @@
   <p>Silakan kirim pesanmu melalui form di bawah ini 😊</p>
 
   <form action="#" method="post">
-    <label for="nama">Nama:</label>
-    <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Masukkan email kamu" required>
-
-    <label for="pesan">Pesan:</label>
-    <textarea id="pesan" name="pesan" placeholder="Tulis pesanmu di sini..." rows="5" required></textarea>
-
-    <button type="submit">Kirim Pesan</button>
-  </form>
-</section>
+    <label for="txtNama">
+        <span>Nama:</span>
+        <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+      </label>
+      <label for="txtEmail">
+        <span>Email:</span>
+        <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+      </label>
+      <label for="txtPesan">
+        <span>Pesan Anda:</span>
+        <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+      </label>
+      <button type="submit">Kirim</button>
+      <button type="reset">Batal</button>
+    </form>
+  </section>
+</main>
 
   <footer>
     <p>&copy; 2025 Jelisa dewi komariah. Semua hak dilindungi.</p>
