@@ -1,73 +1,11 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <h1>Judul Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#Home">Beranda</a></li>
-        <li><a href="#About">Tentang</a></li>
-        <li><a href="#Contact">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="Home">
-    <h2>Selamat Datang!</h2>
-    <p>Ini adalah isi utama dari halaman web.</p>
-  </main>
-
-   <section id="about">
-<h2>Tentang aku</h2>
-<p><strong>NIM:</strong> 25225000676</p>
-<p><strong>Nama Lengkap:</strong> Jelisa dewi komariah &#128526;</p>
-<p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
-<p><strong>Tanggal Lahir:</strong> 26 juni 2007</p>
-<p><strong>Hobi:</strong> Mendaki </p>
-<p><strong>Pasangan:</strong> Belum ada &hearts;</p>
-<p><strong>Pekerjaan:</strong> Mahasiswa &copy; 2025</p>
-<p><strong>Nama Orang Tua:</strong> Bapak Indra gunawan dan Ibu Elianti</p>
-<p><strong>Nama Kakak:</strong> Tidak ada</p>
-<p><strong>Nama Adik:</strong> Jelita dewi komariah</p>
-   </section>
-
-   <section id="Contact">
-  <h2>Hubungi Saya</h2>
-  <p>Silakan kirim pesanmu melalui form di bawah ini 😊</p>
-
-  <form action="#" method="post">
-    <label for="txtNama">
-        <span>Nama:</span>
-        <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-      </label>
-      <label for="txtEmail">
-        <span>Email:</span>
-        <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-      </label>
-      <label for="txtPesan">
-        <span>Pesan Anda:</span>
-        <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-      </label>
-      <button type="submit">Kirim</button>
-      <button type="reset">Batal</button>
-    </form>
-  </section>
-</main>
-
-  <footer>
-    <p>&copy; 2025 Jelisa dewi komariah. Semua hak dilindungi.</p>
-  </footer>
-</body>
-</html>
-
-<style>
-   body {
+  <title>Judul Halaman</title>
+  <style>
+    body {
       font-family: Arial, sans-serif;
       background-color: #f7f7f7;
       margin: 0;
@@ -75,8 +13,9 @@
     }
 
     
+
     #about, #contact {
-      background-color: #ffffff;
+      background-color: #7ca8fa;
       border-radius: 10px;
       padding: 20px;
       max-width: 700px;
@@ -98,12 +37,12 @@
       align-items: baseline;
       margin: 0;
       padding: 6px 0;
-      border-bottom: 1px solid #e6e6e6;
+      border-bottom: 1px solid #050505;
     }
 
     #about strong, #contact label > span {
       min-width: 180px;
-      color: #003366;
+      color: #080808;
       font-weight: 600;
       text-align: right;
       padding-right: 16px;
@@ -133,13 +72,13 @@
     }
 
     #contact button[type="submit"] {
-      background-color: #003366;
+      background-color: #3b4df7;
       color: #fff;
       font-weight: 600;
     }
 
     #contact button[type="reset"] {
-      background-color: #b4b4b4;
+      background-color: #ec1010;
       color: #272727;
       font-weight: 500;
     }
@@ -183,4 +122,84 @@
         width: 100%;
       }
     } 
-</style>
+
+    #contact {
+  background-image: url('maioo.gif'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ini Header</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home">
+    <h2>Selamat Datang</h2>
+    <p>Ini contoh paragraf HTML.</p>
+  </section>
+
+  <section id="about">
+<h2>Tentang aku</h2>
+<p><strong>NIM:</strong> 25225000676</p>
+<p><strong>Nama Lengkap:</strong> Jelisa dewi komariah &#128526;</p>
+<p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
+<p><strong>Tanggal Lahir:</strong> 26 juni 2007</p>
+<p><strong>Hobi:</strong> Mendaki &#127926;</p>
+<p><strong>Pasangan:</strong> Belum ada &hearts;</p>
+<p><strong>Pekerjaan:</strong> Mahasiswa &copy; 2025</p>
+<p><strong>Nama Orang Tua:</strong> Bapak Indra gunawan dan Ibu Elianti</p>
+<p><strong>Nama Kakak:</strong> Tidak ada</p>
+<p><strong>Nama Adik:</strong> Jelita dewi komariah</p>
+</section>
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <form action="" method="GET">
+
+      <label for="txtNama">
+        <span>Nama:</span>
+        <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+      </label>
+      <label for="txtEmail">
+        <span>Email:</span>
+        <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+      </label>
+      <label for="txtPesan">
+        <span>Pesan Anda:</span>
+        <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+      </label>
+      <button type="submit">Kirim</button>
+      <button type="reset">Batal</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 muazijan-2511500073</p>
+</footer>
+
+</body>
+</html>
+   
+
