@@ -49,7 +49,7 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="about">
+    <section id="biodata sederhana mahasiswa">
       <?php
           $nim = "2522500067";
           $Nama_Lengkap = "Jelisa dewi komariah&hearts;";
