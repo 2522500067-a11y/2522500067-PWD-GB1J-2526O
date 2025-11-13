@@ -2,9 +2,9 @@
 
 
 
-hari ini kamis 06 november 2025
-<br>Nim: 2511500073</br>
-<br>Nama: muazijan pratama</br>
+hari ini kamis 07 november 2025
+<br>Nim: 2522500067</br>
+<br>Nama: jelisa dewi komariah</br>
 <ol>
     <li>download file zip pertemuan07</li>
     <li>menambahkan  action="PROSES.php" method="POST"</li>
