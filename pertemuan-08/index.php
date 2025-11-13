@@ -78,29 +78,55 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
 
 
     <section id="contact">
-      <h2>Kontak Kami</h2>
-      <form action="  " method="POST">
+      <br><h2> di sini</h2></br>
+      <form action="ulangan.php" method="POST">
 
-        <label for="txtnama"><span>Nama:</span>
-          <input type="text" id="txtnama" name="txtnama" placeholder="Masukkan nama" required autocomplete="name">
+        <label for="txtnim"><span>NIM:</span>
+          <input type="Nim" id="txtnim" name="txtnim" placeholder="di sini........." required autocomplete="nim">
         </label>
 
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+        <label for="txtnamalengkap"><span>Nama Lengkap:</span>
+          <input type="Nama" id="txtnamalengkap" name="txtnamalengkap" placeholder="di sini........." required autocomplete="nama">
         </label>
 
-        <label for="txtPesan"><span>Pesan Anda:</span>
-          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-          <small id="charCount">0/200 karakter</small>
+        <label for="txttempatlahir"><span>Tempat Lahir:</span>
+          <input type="Tempat lahir" id="txttempatlahir" name="txttempatlahir" placeholder="di sini........." required autocomplete="email">
         </label>
 
+        <label for="txttanggallahir"><span>Tanggal Lahir:</span>
+          <input type="Tanggal lahir" id="txttanggallahir" name="txttanggallahir" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+        <label for="txthobi"><span>Hobi:</span>
+          <input type="hobi" id="txthobi" name="txthobi" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+        <label for="txtpasangan"><span>Pasangan:</span>
+          <input type="pasangan" id="txtpasangan" name="txtpasangan" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+        
+        <label for="txtpekerjaan"><span>Pekerjaan:</span>
+          <input type="pekerjaan" id="txtpekerjaan" name="txtpekerjaan" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+        <label for="txtnamaortu"><span>Nama Orang Tua:</span>
+          <input type="nama orang tua" id="txtnamaortu" name="txtnamaortu" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+        <label for="txtnamakakak"><span>Nama Kakak:</span>
+          <input type="nama kakak" id="txtnamakakak" name="txtnamakakak" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+        <label for="txtnamaadik"><span>Nama Adik:</span>
+          <input type="nama adik" id="txtnamadik" name="txtnamaadik" placeholder="di sini........." required autocomplete="email">
+        </label>
+
+  
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-</section>
-
-
 
 
   <section id="contact">
