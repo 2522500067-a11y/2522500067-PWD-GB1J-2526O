@@ -104,7 +104,7 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
 
 
   <section id="contact">
-      <br><h2>Ubah di sini</h2></br>
+      <br><h2> di sini</h2></br>
       <form action="ulangan.php" method="POST">
 
         <label for="txtnim"><span>NIM:</span>
