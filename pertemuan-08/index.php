@@ -54,12 +54,12 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
           $nim = "2522500067&hearts;";
           $Nama_Lengkap = "Jelisa dewi komariah&hearts;";
           $Tempat_Lahir = "Pangkalpinang";
-          $Tanggal_Lahir = "26-06-2007&hearts;";
+          $Tanggal_Lahir = "26-06-2007";
           $hobi = "mendaki";
           $Pasangan = "saya belum dikasih kepastian&hearts;";
           $Pekerjaan = "mahasiswa&hearts;";
           $Nama_orang_tua ="Nama Ayah saya adalah INDRA GUNAWAN dan Nama Ibu saya ELIANTI&hearts;";
-          $Nama_kakak = "saya tidak mempunyai kakak&hearts;";
+          $Nama_kakak = "saya tidak mempunyai kakak ";
           $Nama_adik = "Jelita dewi komariah";
       ?>
 
