@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  color: #333;
+  background: #d60a0a;
+  color: #e8e5eb;
   line-height: 1.5;
 }
 
@@ -26,7 +26,7 @@ header ul {
 }
 
 header li a {
-  color: #fff;
+  color: #0c0808;
   text-decoration: none;
   padding: 6px 12px;
 }
@@ -41,11 +41,11 @@ header li a:focus {
   outline: 2px solid #fff;
   outline-offset: 2px;
   border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(109, 93, 93, 0.15);
 }
 
 header li a:active {
-  background-color: #cc04a1;
+  background-color: #f51aea;
   transform: translateY(1px);
 }
 
@@ -162,7 +162,7 @@ footer {
   display: none;
   background: none;
   border: none;
-  color: #fff;
+  color: #d6c2c2;
   font-size: 28px;
   cursor: pointer;
 }
@@ -178,7 +178,7 @@ footer {
   nav {
     display: none;
     flex-direction: column;
-    background: #003366;
+    background: #89bef3;
     width: 100%;
     padding: 5px 0;
   }
@@ -211,7 +211,7 @@ footer {
     display: block;
     padding: 12px 14px;
     border: 1px solid rgba(255, 255, 255, .35);
-    background: rgba(255, 255, 255, .08);
+    background: #f0e7e714;
     backdrop-filter: saturate(120%);
   }
 
