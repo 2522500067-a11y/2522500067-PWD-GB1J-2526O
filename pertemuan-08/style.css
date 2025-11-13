@@ -6,13 +6,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #d60a0a;
-  color: #0ec727;
+  color: #d3dfd5;
   line-height: 1.5;
 }
 
 header {
   background: #003366;
-  color: #22d472;
+  color: #e9ecea;
   padding: 20px;
   text-align: center;
 }
@@ -38,7 +38,7 @@ header li a:hover {
 }
 
 header li a:focus {
-  outline: 2px solid hsl(113, 86%, 52%);
+  outline: 2px solid hsl(114, 33%, 88%);
   outline-offset: 2px;
   border-radius: 6px;
   background-color: rgba(109, 93, 93, 0.15);
@@ -52,7 +52,7 @@ header li a:active {
 #home:target~header nav a[href="#home"],
 #about:target~header nav a[href="#about"],
 #contact:target~header nav a[href="#contact"] {
-  background: #28df10;
+  background: #f0f3f0;
   color: #003366;
   font-weight: bold;
   border-radius: 6px;
@@ -62,7 +62,7 @@ header li a:active {
 #home,
 #about,
 #contact {
-  background-color: #30da19;
+  background-color: #eff1ef;
   border-radius: 10px;
   padding: 20px;
   max-width: 700px;
@@ -91,7 +91,7 @@ header li a:active {
   align-items: baseline;
   margin: 0;
   padding: 6px 0;
-  border-bottom: 1px solid #41cc1e;
+  border-bottom: 1px solid #eff5ee;
 }
 
 #about strong,
@@ -107,7 +107,7 @@ header li a:active {
 #contact input,
 #contact textarea {
   flex: 1;
-  border: 1px solid #2cec46;
+  border: 1px solid #f2f5f2;
   border-radius: 6px;
   padding: 8px;
   color: #000;
@@ -135,7 +135,7 @@ header li a:active {
 }
 
 #contact button[type="reset"] {
-  background-color: #b4b4b4;
+  background-color: #3bb7c7;
   color: #272727;
   font-weight: 500;
 }
