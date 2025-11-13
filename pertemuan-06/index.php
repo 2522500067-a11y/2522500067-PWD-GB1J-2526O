@@ -89,7 +89,7 @@ width: 100%;
     $Tempat_Lahir = "Pangkalpinang";
     $Tanggal_Lahir = "26 juni 2007";
     $hobi = "Mendaki &#127926;";
-    $Pasangan = "Belum ada &hearts;";
+    $Pasangan = "Belum di kasih kepastian";
     $Pekerjaan = "Mahasiswa &copy; 2025";
     $Nama_orang_tua ="Bapak Indra gunawan dan Ibu Elianti";
     $Nama_kakak = "Tidak ada";
