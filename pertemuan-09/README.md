@@ -19,5 +19,6 @@
   <li>menambahkan format tanggal</li>
   <li>menambahkan tampilan biodata</li>
   <li>menggatikan tampilan biodata</li>
+  <li>menambahkan require once ke fungsi.php</li>
 
 </ol>
