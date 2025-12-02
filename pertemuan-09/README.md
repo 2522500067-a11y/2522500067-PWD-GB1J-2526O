@@ -13,5 +13,6 @@
   <li>echo session ke nilai label section contact selesai</li>
   <li>menghapus baris 23-32 dan menambahkan baris kode exit setelah baris header</li>
   <li>mengubah baris kode 19-67 dan menggantinya menjadi suffix</li>
-</li>
+  <li>menambahkan htmlspecialchars</li>
+
 </ol>
