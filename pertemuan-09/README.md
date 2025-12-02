@@ -14,5 +14,6 @@
   <li>menghapus baris 23-32 dan menambahkan baris kode exit setelah baris header</li>
   <li>mengubah baris kode 19-67 dan menggantinya menjadi suffix</li>
   <li>menambahkan htmlspecialchars</li>
+  <li>menghapus baaris 130-140 di index.php</li>
 
 </ol>
