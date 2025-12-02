@@ -15,5 +15,6 @@
   <li>mengubah baris kode 19-67 dan menggantinya menjadi suffix</li>
   <li>menambahkan htmlspecialchars</li>
   <li>menghapus baaris 130-140 di index.php</li>
+  <li>menambahkan kode baru ke dalam file fungsi.php</li>
 
 </ol>
