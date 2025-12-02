@@ -11,5 +11,6 @@
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
+  <li>menghapus baris 23-32 dan menambahkan baris kode exit setelah baris header</li>
 </li>
 </ol>
