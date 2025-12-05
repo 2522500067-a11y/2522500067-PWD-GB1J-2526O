@@ -6,4 +6,5 @@
 <li>membuat database db pwd 2025</li>
 <li>membuat tabel tamu</li>
 <li>membuat file read.php</li>
+<li>membuat isi file read.php</li>
 </ol> 
