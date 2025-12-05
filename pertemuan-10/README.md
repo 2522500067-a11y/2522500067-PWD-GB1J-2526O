@@ -11,4 +11,5 @@
 <li>copy read inc php</li>
 <li>update file read inc php</li>
 <li>menambah include</li>
+<li>menambah localhost db pwd 2025</li>
 </ol> 
