@@ -5,4 +5,5 @@
 <li>membuat database di koneksi.php</li>
 <li>membuat database db pwd 2025</li>
 <li>membuat tabel tamu</li>
+<li>membuat file read.php</li>
 </ol> 
