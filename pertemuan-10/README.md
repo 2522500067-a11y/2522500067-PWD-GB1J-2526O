@@ -8,4 +8,5 @@
 <li>membuat file read.php</li>
 <li>membuat isi file read.php</li>
 <li>membuat record read.php</li>
+<li>copy read inc php</li>
 </ol> 
