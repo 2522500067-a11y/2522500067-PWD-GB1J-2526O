@@ -10,4 +10,5 @@
 <li>membuat record read.php</li>
 <li>copy read inc php</li>
 <li>update file read inc php</li>
+<li>menambah include</li>
 </ol> 
