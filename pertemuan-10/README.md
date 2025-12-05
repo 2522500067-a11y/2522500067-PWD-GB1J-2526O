@@ -1,4 +1,5 @@
 # pertemuan-10
 <ol>
 <li>copy</li>
-</ol>
+<li>membuat file koneksi.php</li>
+</ol> 
