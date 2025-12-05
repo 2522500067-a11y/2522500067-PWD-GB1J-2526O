@@ -9,4 +9,5 @@
 <li>membuat isi file read.php</li>
 <li>membuat record read.php</li>
 <li>copy read inc php</li>
+<li>update file read inc php</li>
 </ol> 
