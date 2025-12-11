@@ -9,3 +9,4 @@
 <li>menambah proses.php</li>
 <li>menambahkan INSERT dengan prepared statement</li>
 <li>tambahkan SESSION</li>
+<li>simpan pesan sukses/gagal</li>
