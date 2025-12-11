@@ -49,6 +49,15 @@ if (!empty($errors)) {
 
 $sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?,)";
 $stmt = mysqli_prepare($conn, $sql);
+
+if (!$stmt) {
+
+  $_SESSION['flash_error'] = 'Terjadi kesalahan sistem (prepare gagal).';
+    redirect_ke('index.php#contact');
+}
+
+mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan);
+
 $_SESSION["contact"] = $arrContact;
 
 $arrBiodata = [
