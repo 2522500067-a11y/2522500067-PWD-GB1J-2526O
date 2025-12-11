@@ -46,6 +46,9 @@ if (!empty($errors)) {
   $_SESSION['flash_error'] = implode('<br>', $errors);
   redirect_ke('index.php#contact');
 }
+
+$sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?,)";
+$stmt = mysqli_prepare($conn, $sql);
 $_SESSION["contact"] = $arrContact;
 
 $arrBiodata = [
