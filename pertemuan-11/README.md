@@ -6,3 +6,4 @@
 <li>menambah index.php</li>
 <li>menambahkan proses.php</li>
 <li>menambahkan lagi proses.php</li>
+<li>menambah proses.php</li>

@@ -14,6 +14,38 @@ $arrContact = [
   "email" =bersihkan($_POST['txtEmail'] ?? "");
   "pesan" =bersihkan($_POST['txtPesan'] ?? "");
 ];
+
+$errors = [];
+
+if($nama === '') {
+   $errors[]= 'nama wajib diisi.';
+}
+
+if ($email ==='') {
+  $errors[] = 'email wajib diisi.';
+} elseif (!filter_war($email, FILTER_VALIDATE_EMAIL)) {
+   $errors[] = 'format e-mail tidak valid.';
+}
+
+if ($pesan === '') {
+  $errors[] = 'pesan wajib diisi.';
+}
+
+
+
+
+
+
+if (!empty($errors)) {
+  $_SESSION['old'] = [
+     'nama' => $nama,
+     'email' => $email,
+     'pesan' => $pesan,
+  ];
+
+  $_SESSION['flash_error'] = implode('<br>', $errors);
+  redirect_ke('index.php#contact');
+}
 $_SESSION["contact"] = $arrContact;
 
 $arrBiodata = [
