@@ -110,14 +110,19 @@ require_once __DIR__ . '/fungsi.php';
     </section>
 
     <?php
-    $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
-    $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error
-    $old          = $_SESSION['old'] ?? []; #untuk nilai lama form
+    $flash_sukses = $_SESSION['flash_sukses'] ?? ''; 
+    $flash_error  = $_SESSION['flash_error'] ?? '';
+    $old          = $_SESSION['old'] ?? []; 
 
     unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']); #bersihkan 3 session ini
     ?>
 
     <section id="contact">
+       <h2>kontak kami</h2>
+
+       <?php if (empty($flash_sukses)): ?>
+         <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+           <
 
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
