@@ -11,3 +11,4 @@
 <li>tambahkan SESSION</li>
 <li>simpan pesan sukses/gagal</li>
 <li>menambah kode nomor<li>
+<li>menambah validasi nama dan pesan</li>
