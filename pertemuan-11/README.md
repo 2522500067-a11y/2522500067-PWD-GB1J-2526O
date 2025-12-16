@@ -14,3 +14,4 @@
 <li>menambah validasi nama dan pesan</li>
 <li>menambah input captcha sederhana</li>
 <li>menambahkan dcreated di tbl tamu</li>
+<li>menambahkan dcreated di read php</li>
