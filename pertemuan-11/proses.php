@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 $nama = bersihkan($_POST['txtNama'] ?? '');
 $email = bersihkan($_POST['txtEmail'] ?? '');
 $pesan = bersihkan($_POST['txtPesan'] ?? '');
-$captcha = bersihkan($_POST["captcha"] ?? '');
+$captcha = bersihkan($_POST['captcha'] ?? '');
 
 $errors = [];
 
@@ -24,7 +24,7 @@ if ($captcha === "") {
 
 if ($nama === '') {
     $errors[] = 'Nama wajib diisi.';
-} elseif (bersihkan($nama) < 3) {
+} elseif (strlen($nama) < 3) {
     $errors[] = "Nama minimal 3 karakter!";
 }
 if ($email === '') {
@@ -34,7 +34,7 @@ if ($email === '') {
 }
 if ($pesan === '') {
     $errors[] = 'Pesan wajib diisi.';
-} elseif (bersihkan($pesan) < 10) {
+} elseif (strlen($pesan) < 10) {
     $errors[] = "Pesan minimal 10 karakter!";
 }
 
