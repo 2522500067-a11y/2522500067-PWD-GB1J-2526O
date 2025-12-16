@@ -10,3 +10,4 @@
 <li>menambahkan INSERT dengan prepared statement</li>
 <li>tambahkan SESSION</li>
 <li>simpan pesan sukses/gagal</li>
+<li>menambah kode nomor<li>
