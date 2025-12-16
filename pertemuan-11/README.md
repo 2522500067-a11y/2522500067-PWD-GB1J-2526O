@@ -16,3 +16,4 @@
 <li>menambahkan dcreated di tbl tamu</li>
 <li>menambahkan dcreated di read php</li>
 <li>menambahkan localhost yang baru</li>
+<li>menambahkan require di read inc</li>

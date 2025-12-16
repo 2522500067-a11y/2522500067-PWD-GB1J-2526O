@@ -1,5 +1,6 @@
 <?php
 require 'koneksi.php';
+require_once __DIR__ . '/fungsi.php';
 
 
 $fieldContact = [
