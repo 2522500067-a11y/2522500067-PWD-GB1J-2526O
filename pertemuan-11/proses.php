@@ -16,9 +16,9 @@ $captcha = bersihkan($_POST["captcha"] ?? '');
 $errors = [];
 
 if ($captcha === "") {
-    $eror[] = "Captcha harus diisi!";
+    $errors[] = "Captcha harus diisi!";
 } elseif ($captcha != 5) {
-    $eror[] = "Jawaban captcha salah!";
+    $errors[] = "Jawaban captcha salah!";
 }
 
 
