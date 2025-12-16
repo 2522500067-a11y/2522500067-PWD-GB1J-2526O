@@ -15,3 +15,4 @@
 <li>menambah input captcha sederhana</li>
 <li>menambahkan dcreated di tbl tamu</li>
 <li>menambahkan dcreated di read php</li>
+<li>menambahkan localhost yang baru</li>
