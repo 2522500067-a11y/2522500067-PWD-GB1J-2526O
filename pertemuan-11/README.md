@@ -12,3 +12,4 @@
 <li>simpan pesan sukses/gagal</li>
 <li>menambah kode nomor<li>
 <li>menambah validasi nama dan pesan</li>
+<li>menambah field baru di tabel tbl tamu</li>

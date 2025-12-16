@@ -11,7 +11,16 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 $nama = bersihkan($_POST['txtNama'] ?? '');
 $email = bersihkan($_POST['txtEmail'] ?? '');
 $pesan = bersihkan($_POST['txtPesan'] ?? '');
+$captcha = bersihkan($_POST["captcha"] ?? '');
+
 $errors = [];
+
+if ($captcha === "") {
+    $eror[] = "Captcha harus diisi!";
+} elseif ($captcha != 5) {
+    $eror[] = "Jawaban captcha salah!";
+}
+
 
 if ($nama === '') {
     $errors[] = 'Nama wajib diisi.';
