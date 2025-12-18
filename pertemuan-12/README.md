@@ -20,3 +20,4 @@
 <li>menambahkan kolom aksi di read php</li>
 <li>menambahkan penampil flash sukses maupun flash error pada read.php</li>
 <li>membuat file baru dengan nama edit.php dipertemuan-12</li>
+<li>membuat proses update php di pertemuan-12</li>
