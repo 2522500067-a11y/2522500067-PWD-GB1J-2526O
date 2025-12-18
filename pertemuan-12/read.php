@@ -10,6 +10,7 @@ $no = 1;
     <tr>
         
         <th>no</th>
+        <th>aksi</th>
         <th>ID</th>
         <th>Nama</th>
         <th>Email</th>
@@ -22,6 +23,7 @@ $no = 1;
     <?php while ($row = mysqli_fetch_assoc($q)): ?>
         <tr>
         <td><?= $i++ ?></td?>
+        <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
         <td><?= $row['cid']; ?></td>
         <td><?= htmlspecialchars($row['cnama']); ?></td>
         <td><?= htmlspecialchars($row['cemail']); ?></td>
