@@ -55,7 +55,7 @@ if (mb_strlen($pesan) < 10) {
 }
 
 if ($captcha !== "6") {
-    $errors[] = 'Jawaban ' . $captcha . ' captcha salah.';
+    $errors[] = 'Jawaban ' . $captcha. ' captcha salah.';
 }
 
 
