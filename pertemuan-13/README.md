@@ -8,5 +8,5 @@ NAMA: Jelisa dewi komariah<br>
 <li>mengestrak pertemuan 13</li>
 <li>menambah file delete</li>
 <li>mencopy proses update ke delete</li>
-
-
+<li>menghapus kode proses delete menyesuaikan</li>
+</ol>
