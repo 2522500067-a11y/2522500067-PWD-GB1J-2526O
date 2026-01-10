@@ -10,5 +10,7 @@ NAMA: Jelisa dewi komariah<br>
 <li>mencopy proses update ke delete</li>
 <li>menghapus kode proses delete menyesuaikan</li>
 <li>menambahkan parameter</li>
+<li>mencari eror</li
+>
 
 </ol>
