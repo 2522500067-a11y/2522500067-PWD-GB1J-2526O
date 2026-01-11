@@ -38,9 +38,29 @@ require_once __DIR__ . '/fungsi.php';
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
+    <?php
+    $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
+    $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error
+    $old_biodata  = $_SESSION['old_biodata'] ?? []; #untuk nilai lama form
+
+    unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old_biodata']); #bersihkan 3 session ini
+    ?>
     <section id="biodata">
       <h2>Biodata Sederhana Mahasiswa</h2>
-      <form action="proses.php" method="POST">
+
+      <?php if (!empty($flash_sukses)): ?>
+        <div style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
+          <?= $flash_sukses; ?>
+        </div>
+      <?php endif; ?>
+
+      <?php if (!empty($flash_error)): ?>
+        <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+          <?= $flash_error; ?>
+        </div>
+      <?php endif; ?>
+
+      <form action="proses_biodata.php" method="POST">
 
         <label for="txtNim"><span>NIM:</span>
           <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan NIM" required>
@@ -87,26 +107,9 @@ require_once __DIR__ . '/fungsi.php';
       </form>
     </section>
 
-    <?php
-    $biodata = $_SESSION["biodata"] ?? [];
-
-    $fieldConfig = [
-      "nim" => ["label" => "NIM:", "suffix" => ""],
-      "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
-      "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
-      "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
-      "hobi" => ["label" => "Hobi:", "suffix" => " &#127926;"],
-      "pasangan" => ["label" => "Pasangan:", "suffix" => " &hearts;"],
-      "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
-      "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
-      "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
-      "adik" => ["label" => "Nama Adik:", "suffix" => ""],
-    ];
-    ?>
-
     <section id="about">
       <h2>Tentang Saya</h2>
-      <?= tampilkanBiodata($fieldConfig, $biodata) ?>
+     <?php include 'read_biodata.php'; ?>
     </section>
 
     <?php
