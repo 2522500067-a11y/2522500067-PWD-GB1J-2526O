@@ -35,7 +35,7 @@ if (!$q) {
       "adik"  => $row["cnama_adik"]  ?? "",
       
     ];
-    echo tampilkanBiodata($fieldBiodata, $arrBiodata);
+    echo tampilkanBiodata($fieldConfig, $arrBiodata);
   }
 }
 ?>
