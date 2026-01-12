@@ -15,4 +15,5 @@ Hari ini tanggal 11/01/2026 , saya mempelajari:<br>
 <li>mengedit kode edit_biodata.php</li>
 <li>menambah file proses_delete_biodata.php</li>
 <li>menambah file proses_update_biodata.php</li>
+<li>menambah file proses_biodata.php</li>
 </ol>
