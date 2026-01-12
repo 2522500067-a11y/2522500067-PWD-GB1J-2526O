@@ -13,4 +13,5 @@ Hari ini tanggal 11/01/2026 , saya mempelajari:<br>
 <li>mengcopy read proses.php ke proses_biodata dan menambah kode</li>
 <li>menambah kode diindex.php</li>
 <li>mengedit kode edit_biodata.php</li>
+<li>menambah file proses_delete_biodata.php</li>
 </ol>
