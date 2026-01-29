@@ -7,3 +7,4 @@ hari ini tanggal 29/01/2026,saya mengerjakan uas:<br>
 <li>buat tabel database di phpmyadmin</li>
 <li>membuat file baru bernama read_anggota.php</li>
 <li>menambah file read_anggota_inc.php dan mencopy dari read_biodata_inc.php</li>
+<li>menambah file proses_update_anggota.php</li>

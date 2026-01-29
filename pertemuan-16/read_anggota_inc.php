@@ -11,8 +11,8 @@ $fieldConfig = [
     "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => " &copy; 2025"],
     "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
     "asal" => ["label" => "asal SLTA:", "suffix" => ""],
-    "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
-    "adik" => ["label" => "Nama Adik:", "suffix" => ""],
+    "pacar" => ["label" => "Nama pacar:", "suffix" => ""],
+    "mantan" => ["label" => "Nama mantan:", "suffix" => ""],
 ];
 $sql = "SELECT * FROM tbl_biodata_anggota ORDER BY cid DESC";
 $q = mysqli_query($conn, $sql);
