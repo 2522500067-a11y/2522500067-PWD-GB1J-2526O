@@ -3,7 +3,7 @@
   require 'koneksi.php';
   require 'fungsi.php';
 
-  $sql = "SELECT * FROM tbl_biodata_pengunjung ORDER BY cid DESC";
+  $sql = "SELECT * FROM tbl_biodata_anggota ORDER BY cid DESC";
   $q = mysqli_query($conn, $sql);
   if (!$q) {
     die("Query error: " . mysqli_error($conn));
@@ -36,14 +36,14 @@
     <th>No</th>
     <th>Aksi</th>
     <th>ID</th>
-    <th>Kode Pengunjung</th>
-    <th>Nama Pengunjung</th>
-    <th>Alamat Rumah</th>
-    <th>Tanggal Kunjungan</th>
+    <th>Kode anggota</th>
+    <th>Nama anggota</th>
+    <th>Alamat anggota</th>
+    <th>Tanggal anggota</th>
     <th>Hobi</th>
-    <th>Asal SLTA</th>
     <th>Pekerjaan</th>
     <th>Nama Orang Tua</th>
+    <th>Asal SLTA</th>
     <th>Nama Pacar</th>
     <th>Nama Mantan</th>
   </tr>
@@ -53,17 +53,17 @@
       <td><?= $i++ ?></td>
       <td>
         <a href="edit_pengunjung.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['dkode_pengunjung']); ?>?')" href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['dkode_anggota']); ?>?')" href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
       </td>
       <td><?= $row['cid']; ?></td>
-      <td><?= htmlspecialchars($row['dkode_pengunjung']); ?></td>
-      <td><?= htmlspecialchars($row['dnama_pengunjung']); ?></td>
-      <td><?= htmlspecialchars($row['dalamat_rumah']); ?></td>
-      <td><?= htmlspecialchars($row['dtanggal_kunjungan']); ?></td>
+      <td><?= htmlspecialchars($row['dkode_anggota']); ?></td>
+      <td><?= htmlspecialchars($row['dnama_anggota']); ?></td>
+      <td><?= htmlspecialchars($row['dalamat_anggota']); ?></td>
+      <td><?= htmlspecialchars($row['dtanggal_anggota']); ?></td>
       <td><?= htmlspecialchars($row['dhobi']); ?></td>
-      <td><?= htmlspecialchars($row['dasal_SLTA']); ?></td>
       <td><?= htmlspecialchars($row['dpekerjaan']); ?></td>
       <td><?= htmlspecialchars($row['dnama_ortu']); ?></td>
+      <td><?= htmlspecialchars($row['dasal_SLTA']); ?></td>
       <td><?= htmlspecialchars($row['dnama_pacar']); ?></td>
       <td><?= htmlspecialchars($row['dnama_mantan']); ?></td>
     </tr>
